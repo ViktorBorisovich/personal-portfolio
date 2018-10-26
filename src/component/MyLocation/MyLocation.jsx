@@ -16,7 +16,7 @@ class MyLocation extends React.Component {
   render() {
     const Map = ReactMapboxGl({
       accessToken:
-        "pk.eyJ1Ijoid2l0a28xMDA1MDAiLCJhIjoiY2puYmV4bWN1MDNpODNwcjd2cThvZ2NiOCJ9.PwwjuYk5s4mcQr2HWh1VnA"
+        "pk.eyJ1Ijoid2l0a28xMDA1MDAiLCJhIjoiY2pucHdkZmJiMXdzNjNxcGtuNGlkdzNzMCJ9.vudd4cZ1ve6b_D4jrGUwWQ"
     });
     const { classes } = this.props;
 
