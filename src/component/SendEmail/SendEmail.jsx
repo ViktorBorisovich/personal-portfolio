@@ -46,6 +46,7 @@ class SendEmail extends React.Component {
         >
           <TextField
             id="outlined-name"
+            name="email"
             label="Email"
             type="email"
             className={classes.textField}
@@ -56,6 +57,7 @@ class SendEmail extends React.Component {
 
           <TextField
             id="outlined-name"
+            name="name"
             label={intl.messages["sendEmail.name"]}
             type="text"
             className={classes.textField}
@@ -66,6 +68,7 @@ class SendEmail extends React.Component {
 
           <TextField
             id="outlined-multiline-static"
+            name="message"
             label={intl.messages["sendEmail.message"]}
             multiline
             rows="4"
